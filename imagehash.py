@@ -32,7 +32,7 @@ Rotation by 26: 21 Hamming difference
 from __future__ import (absolute_import, division, print_function)
 
 from PIL import Image, ImageFilter
-import numpy
+import cupy as numpy
 #import scipy.fftpack
 #import pywt
 __version__ = "4.2.1"
